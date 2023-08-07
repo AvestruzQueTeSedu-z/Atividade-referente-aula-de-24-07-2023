@@ -1,0 +1,51 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio18</title>
+</head>
+<body>
+    <script lang="JavaScript">
+        var P, I,P2, P3;
+
+        P2=0;
+        P3=0;
+
+        for (P=1; P<=20; ++P)
+
+        {
+            for (I=1; I<=10; ++I)
+
+            {
+                if (c2<16)
+                {
+                    document.write(P,"x",I," = ",P*I,".............................");
+                    ++P2;
+                    ++P3;
+                    if (P3==4)
+                    {
+                        document.write("<br>");
+                        P3=0;
+                    }
+                }
+
+                else
+
+                {
+                    P2=0;
+                    document.write("<br>");
+                    document.write(P,"x",I," = ",P*I,".............................");
+                    ++P2;
+                    ++P3;
+                    if (P3==4)
+                    {
+                        document.write("<br>");
+                        P3=0;
+                    }
+                }
+                
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio20</title>
+</head>
+<body>
+    <script>
+        var C, J, G, S;
+
+        G = 1;
+        J = 0;
+
+        document.write("Os 30 primeiros números da série Fibonacci são: ");
+
+        for (C = 1; C<=30; ++C)
+        {
+            S = G;
+            J = J+S;
+            G = J-S;
+
+            document.write(J,". ");
+        }
+    </script>
+</body>
+</html>
